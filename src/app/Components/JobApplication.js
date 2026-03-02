@@ -387,7 +387,7 @@ const JobApplication = ({ job }) => {
                   required
                   rows={6}
                   className="text-black w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none resize-none"
-                  placeholder="Tell us why you're the perfect fit for this role. Include your relevant experience, achievements, and what excites you about joining TheSocialHawks..."
+                  placeholder="Tell us why you're the perfect fit for this role. Include your relevant experience, achievements, and what excites you about joining AY Creative Solution..."
                 />
               </div>
 
@@ -545,7 +545,7 @@ const JobApplication = ({ job }) => {
               <div className="space-y-2 text-sm">
                 <div className="flex items-center text-gray-600">
                   <span className="mr-2">📧</span>
-                  <span>info@thesocialhawks.com</span>
+                  <span>info@aycreativesolution.com</span>
                 </div>
                 <div className="flex items-center text-gray-600">
                   <span className="mr-2">📱</span>

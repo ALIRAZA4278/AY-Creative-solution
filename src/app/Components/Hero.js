@@ -185,7 +185,7 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
               >
-                At SocialHawks, we are not just a regular marketing agency - we are your growth partners. Our team combines creativity with data-driven strategies to design, build, and market brands that attract attention, and that ultimately succeed.
+                At AY Creative Solution, we are not just a regular marketing agency - we are your growth partners. Our team combines creativity with data-driven strategies to design, build, and market brands that attract attention, and that ultimately succeed.
               </motion.p>
 
               {/* Team Avatars and Contact Button */}
@@ -325,7 +325,7 @@ const Hero = () => {
                   
                   {/* Main Central Circle */}
                   <motion.div
-                    className="absolute w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-primary to-purple-600 opacity-20"
+                    className="absolute w-48 h-48 sm:w-64 sm:h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-br from-primary to-sky-600 opacity-20"
                     animate={{
                       scale: [1, 1.1, 1],
                       rotate: [0, 360],
@@ -353,7 +353,7 @@ const Hero = () => {
                   />
 
                   <motion.div
-                    className="absolute w-3 h-3 bg-purple-500 rounded-full"
+                    className="absolute w-3 h-3 bg-sky-500 rounded-full"
                     animate={{
                       rotate: [0, -360],
                     }}
@@ -384,7 +384,7 @@ const Hero = () => {
 
                   {/* Floating Shapes */}
                   <motion.div
-                    className="absolute top-10 left-10 w-6 h-6 bg-gradient-to-r from-primary to-purple-500 rounded-lg"
+                    className="absolute top-10 left-10 w-6 h-6 bg-gradient-to-r from-primary to-sky-500 rounded-lg"
                     animate={{
                       y: [0, -20, 0],
                       rotate: [0, 180, 360],
@@ -396,7 +396,7 @@ const Hero = () => {
                   />
 
                   <motion.div
-                    className="absolute top-20 right-16 w-4 h-8 bg-gradient-to-b from-purple-400 to-blue-500 rounded-full"
+                    className="absolute top-20 right-16 w-4 h-8 bg-gradient-to-b from-sky-400 to-blue-500 rounded-full"
                     animate={{
                       x: [0, 15, 0],
                       rotate: [0, -90, 0],
@@ -428,17 +428,17 @@ const Hero = () => {
                     transition={{ duration: 1, delay: 0.5 }}
                   >
                     <motion.div
-                      className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-4 bg-gradient-to-br from-primary to-purple-600 rounded-3xl flex items-center justify-center shadow-2xl"
-                      whileHover={{ 
+                      className="w-24 h-24 sm:w-32 sm:h-32 mx-auto mb-4 bg-gradient-to-br from-primary to-sky-600 rounded-3xl flex items-center justify-center shadow-2xl"
+                      whileHover={{
                         scale: 1.1,
                         rotate: 5,
-                        boxShadow: "0 20px 40px rgba(127, 32, 196, 0.3)"
+                        boxShadow: "0 20px 40px rgba(0, 180, 216, 0.3)"
                       }}
                       animate={{
                         boxShadow: [
-                          "0 10px 20px rgba(127, 32, 196, 0.2)",
-                          "0 20px 40px rgba(127, 32, 196, 0.4)",
-                          "0 10px 20px rgba(127, 32, 196, 0.2)"
+                          "0 10px 20px rgba(0, 180, 216, 0.2)",
+                          "0 20px 40px rgba(0, 180, 216, 0.4)",
+                          "0 10px 20px rgba(0, 180, 216, 0.2)"
                         ]
                       }}
                       transition={{
@@ -460,7 +460,7 @@ const Hero = () => {
                     <motion.h3 
                       className="text-lg sm:text-xl font-bold text-gray-800 mb-2"
                       animate={{
-                        color: ["#1f2937", "#7f20c4", "#1f2937"]
+                        color: ["#1f2937", "#00B4D8", "#1f2937"]
                       }}
                       transition={{
                         duration: 4,
@@ -491,7 +491,7 @@ const Hero = () => {
                     <svg className="w-full h-full" viewBox="0 0 400 400">
                       <motion.path
                         d="M 50,200 Q 200,50 350,200 Q 200,350 50,200"
-                        stroke="rgba(127, 32, 196, 0.2)"
+                        stroke="rgba(0, 180, 216, 0.2)"
                         strokeWidth="2"
                         fill="none"
                         initial={{ pathLength: 0 }}

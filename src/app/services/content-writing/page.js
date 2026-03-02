@@ -50,7 +50,7 @@ const WebContentWritingPage = () => {
                   Web Content Writing Services
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Content has the ability to shift thoughts, create trust, and elicit response. At SocialHawks, we provide professional web content writing services that combine creativity with strategy. Our SEO writing will help you stand apart from the competition, target your audience, rise in the ranks of search engines, and turn your visitors into customers.
+                  Content has the ability to shift thoughts, create trust, and elicit response. At AY Creative Solution, we provide professional web content writing services that combine creativity with strategy. Our SEO writing will help you stand apart from the competition, target your audience, rise in the ranks of search engines, and turn your visitors into customers.
                 </p>
 
                 {/* CTA Button */}
@@ -166,7 +166,7 @@ const WebContentWritingPage = () => {
               </div>
             </section>
 
-            {/* Why Choose SocialHawks */}
+            {/* Why Choose AY Creative Solution */}
             <section className="mb-16">
               <motion.h2
                 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8"
@@ -174,7 +174,7 @@ const WebContentWritingPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
-                Why Choose SocialHawks for Content Writing?
+                Why Choose AY Creative Solution for Content Writing?
               </motion.h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -387,7 +387,7 @@ const WebContentWritingPage = () => {
                   Ready to Transform Your Website with Powerful Content?
                 </h2>
                 <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-                  Your website is worthy of content that not only takes up space but also makes an impact. With SocialHawks&apos; web content writing services you will receive content that is enthralling, optimized, and designed to convert.
+                  Your website is worthy of content that not only takes up space but also makes an impact. With AY Creative Solution&apos;s web content writing services you will receive content that is enthralling, optimized, and designed to convert.
                 </p>
                 <p className="text-lg text-gray-600 mb-8">
                   Contact us today and together let&apos;s produce content that ranks and resonates.

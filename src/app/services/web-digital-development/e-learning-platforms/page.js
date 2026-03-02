@@ -52,7 +52,7 @@ const ELearningPlatformsPage = () => {
                   E-learning Platforms & Marketplaces
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Transform education with powerful e-learning platforms and online marketplaces. At SocialHawks, we build scalable learning management systems (LMS), course platforms, and educational marketplaces that engage learners and drive knowledge sharing across the globe.
+                  Transform education with powerful e-learning platforms and online marketplaces. At AY Creative Solution, we build scalable learning management systems (LMS), course platforms, and educational marketplaces that engage learners and drive knowledge sharing across the globe.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

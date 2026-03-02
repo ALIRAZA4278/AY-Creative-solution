@@ -1165,7 +1165,7 @@ const ProjectDetailPage = ({ params }) => {
         }
         
         .gradient-text {
-          background: linear-gradient(-45deg, #7f20c4, #9333ea, #3b82f6, #06b6d4);
+          background: linear-gradient(-45deg, #00B4D8, #0EA5E9, #0077B6, #06b6d4);
           background-size: 400% 400%;
           animation: gradient-x 3s ease infinite;
           -webkit-background-clip: text;
@@ -1195,7 +1195,7 @@ const ProjectDetailPage = ({ params }) => {
         
         /* Enhanced focus states */
         *:focus-visible {
-          outline: 2px solid #7f20c4;
+          outline: 2px solid #00B4D8;
           outline-offset: 2px;
           border-radius: 4px;
         }
@@ -1211,7 +1211,7 @@ const ProjectDetailPage = ({ params }) => {
         }
         
         ::-webkit-scrollbar-thumb {
-          background: linear-gradient(45deg, #7f20c4, #9333ea);
+          background: linear-gradient(45deg, #00B4D8, #0EA5E9);
           border-radius: 4px;
         }
         

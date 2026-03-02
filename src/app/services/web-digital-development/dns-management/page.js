@@ -52,7 +52,7 @@ const DNSManagementPage = () => {
                   DNS Management & Configuration
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Reliable DNS management is the backbone of your online presence. At SocialHawks, we provide expert DNS configuration and management services that ensure your domain points to the right servers, your emails reach their destination, and your website loads fast for users worldwide.
+                  Reliable DNS management is the backbone of your online presence. At AY Creative Solution, we provide expert DNS configuration and management services that ensure your domain points to the right servers, your emails reach their destination, and your website loads fast for users worldwide.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

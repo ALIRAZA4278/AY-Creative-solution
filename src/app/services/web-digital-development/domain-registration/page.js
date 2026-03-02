@@ -52,7 +52,7 @@ const DomainRegistrationPage = () => {
                   Domain Registration & Strategy
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Your domain name is your digital identity. At SocialHawks, we help you secure the perfect domain that reflects your brand, improves discoverability, and builds trust with your audience. From registration to strategic domain management, we&apos;ve got you covered.
+                  Your domain name is your digital identity. At AY Creative Solution, we help you secure the perfect domain that reflects your brand, improves discoverability, and builds trust with your audience. From registration to strategic domain management, we&apos;ve got you covered.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

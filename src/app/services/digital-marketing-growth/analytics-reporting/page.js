@@ -52,7 +52,7 @@ const AnalyticsReportingPage = () => {
                   Analytics & Performance Reporting
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Make data-driven decisions with comprehensive analytics and reporting. At SocialHawks, we set up tracking, create custom dashboards, and deliver actionable insights that help you understand performance and optimize for growth.
+                  Make data-driven decisions with comprehensive analytics and reporting. At AY Creative Solution, we set up tracking, create custom dashboards, and deliver actionable insights that help you understand performance and optimize for growth.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

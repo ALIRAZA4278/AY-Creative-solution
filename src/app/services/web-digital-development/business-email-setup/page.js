@@ -52,7 +52,7 @@ const BusinessEmailSetupPage = () => {
                   Professional Business Email Setup
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Establish credibility with professional business email addresses. At SocialHawks, we set up custom email solutions that match your domain (you@yourbusiness.com), ensuring reliable delivery, security, and seamless integration with your workflow.
+                  Establish credibility with professional business email addresses. At AY Creative Solution, we set up custom email solutions that match your domain (you@yourbusiness.com), ensuring reliable delivery, security, and seamless integration with your workflow.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

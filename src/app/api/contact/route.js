@@ -48,11 +48,11 @@ export async function POST(request) {
     const mailToYou = {
       from: process.env.NM_EMAIL_USER,
       to: process.env.NM_EMAIL_USER,
-      subject: `New Contact from TheSocialHawks: ${name}`,
+      subject: `New Contact from AY Creative Solution: ${name}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #3b82f6; border-bottom: 2px solid #3b82f6; padding-bottom: 10px;">
-            New Contact Form Submission - TheSocialHawks
+            New Contact Form Submission - AY Creative Solution
           </h2>
           
           <div style="background-color: #f8fafc; padding: 20px; border-radius: 8px; margin: 20px 0;">
@@ -74,7 +74,7 @@ export async function POST(request) {
           
           <div style="text-align: center; margin-top: 30px; padding: 20px; background-color: #f1f5f9; border-radius: 8px;">
             <p style="color: #64748b; font-size: 14px;">
-              This email was sent from TheSocialHawks contact form.
+              This email was sent from AY Creative Solution contact form.
             </p>
           </div>
         </div>
@@ -86,11 +86,11 @@ export async function POST(request) {
       from: process.env.NM_EMAIL_USER,
       to: email,
       replyTo: process.env.NM_EMAIL_USER,
-      subject: `Thank you for contacting TheSocialHawks, ${name}!`,
+      subject: `Thank you for contacting AY Creative Solution, ${name}!`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
           <h2 style="color: #10b981; border-bottom: 2px solid #10b981; padding-bottom: 10px;">
-            Thank You for Reaching Out to TheSocialHawks!
+            Thank You for Reaching Out to AY Creative Solution!
           </h2>
           
           <p style="font-size: 16px; line-height: 1.6; color: #374151;">
@@ -98,7 +98,7 @@ export async function POST(request) {
           </p>
           
           <p style="font-size: 16px; line-height: 1.6; color: #374151;">
-            Thank you for contacting TheSocialHawks! We've received your message and our team will get back to you as soon as possible. We're excited to learn about your project and help you achieve your digital marketing goals.
+            Thank you for contacting AY Creative Solution! We've received your message and our team will get back to you as soon as possible. We're excited to learn about your project and help you achieve your digital marketing goals.
           </p>
           
           <div style="background-color: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0; border-left: 4px solid #0ea5e9;">
@@ -131,14 +131,14 @@ export async function POST(request) {
           
           <div style="text-align: center; margin: 30px 0;">
             <p style="color: #374151; margin-bottom: 15px;"><strong>Connect with us:</strong></p>
-            <a href="https://www.facebook.com/thesocialhawks" style="display: inline-block; margin: 0 10px; padding: 10px 20px; background-color: #1877f2; color: white; text-decoration: none; border-radius: 5px;">Facebook</a>
-            <a href="https://www.linkedin.com/company/thesocialhawks" style="display: inline-block; margin: 0 10px; padding: 10px 20px; background-color: #0077b5; color: white; text-decoration: none; border-radius: 5px;">LinkedIn</a>
-            <a href="https://www.instagram.com/thesocialhawks" style="display: inline-block; margin: 0 10px; padding: 10px 20px; background-color: #e4405f; color: white; text-decoration: none; border-radius: 5px;">Instagram</a>
+            <a href="https://www.facebook.com/aycreativesolution" style="display: inline-block; margin: 0 10px; padding: 10px 20px; background-color: #1877f2; color: white; text-decoration: none; border-radius: 5px;">Facebook</a>
+            <a href="https://www.linkedin.com/company/aycreativesolution" style="display: inline-block; margin: 0 10px; padding: 10px 20px; background-color: #0077b5; color: white; text-decoration: none; border-radius: 5px;">LinkedIn</a>
+            <a href="https://www.instagram.com/aycreativesolution" style="display: inline-block; margin: 0 10px; padding: 10px 20px; background-color: #e4405f; color: white; text-decoration: none; border-radius: 5px;">Instagram</a>
           </div>
           
           <p style="font-size: 16px; line-height: 1.6; color: #374151;">
             Best regards,<br>
-            <strong>TheSocialHawks Team</strong><br>
+            <strong>AY Creative Solution Team</strong><br>
             <em>Your Digital Marketing Partners</em>
           </p>
           

@@ -109,7 +109,7 @@ const About = () => {
                 animate={isHeaderInView ? { opacity: 1 } : { opacity: 0 }}
                 transition={{ duration: 0.6, delay: 0.5 }}
               >
-                About SocialHawks
+                About AY Creative Solution
               </motion.span>
             </motion.h2>
         
@@ -153,7 +153,7 @@ const About = () => {
                 </motion.div>
               ) : (
                 <motion.div 
-                  className="w-full h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] bg-gradient-to-br from-primary/20 to-purple-600/30 flex items-center justify-center"
+                  className="w-full h-[300px] sm:h-[400px] lg:h-[500px] xl:h-[600px] bg-gradient-to-br from-primary/20 to-sky-600/30 flex items-center justify-center"
                   initial={{ opacity: 0 }}
                   animate={isImageInView ? { opacity: 1 } : { opacity: 0 }}
                   transition={{ duration: 0.8 }}
@@ -201,7 +201,7 @@ const About = () => {
                 animate={isContentInView ? { opacity: 1 } : { opacity: 0 }}
                 transition={{ duration: 0.8, delay: 0.6 }}
               >
-                <span className="text-primary font-semibold">SocialHawks</span> is a digital marketing agency that combines creativity and strategy. Our mission is to enable brands to reach their full potential without borders.
+                <span className="text-primary font-semibold">AY Creative Solution</span> is a digital marketing agency that combines creativity and strategy. Our mission is to enable brands to reach their full potential without borders.
               </motion.p>
 
               <motion.p

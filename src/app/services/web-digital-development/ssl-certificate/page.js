@@ -52,7 +52,7 @@ const SSLCertificatePage = () => {
                   SSL/TLS Certificate Installation
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Secure your website with SSL/TLS certificates that encrypt data, build visitor trust, and boost SEO rankings. At SocialHawks, we handle everything from certificate selection to installation and renewal management.
+                  Secure your website with SSL/TLS certificates that encrypt data, build visitor trust, and boost SEO rankings. At AY Creative Solution, we handle everything from certificate selection to installation and renewal management.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

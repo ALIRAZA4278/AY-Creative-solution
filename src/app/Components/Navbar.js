@@ -84,8 +84,8 @@ const Navbar = () => {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
                 <Image
-                  src="/images/logo.png"
-                  alt="Socialhawks Logo"
+                  src="/ay creative logo.png"
+                  alt="AY Creative Solution Logo"
                   width={150}
                   height={80}
                   className="h-15 sm:h-18 lg:h-20 w-auto object-contain"

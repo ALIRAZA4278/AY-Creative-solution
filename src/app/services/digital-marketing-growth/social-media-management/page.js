@@ -52,7 +52,7 @@ const SocialMediaManagementPage = () => {
                   Strategic Social Media Management
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Build a powerful social presence that engages your audience and drives business growth. At SocialHawks, we create and manage compelling social media strategies that turn followers into loyal customers across all major platforms.
+                  Build a powerful social presence that engages your audience and drives business growth. At AY Creative Solution, we create and manage compelling social media strategies that turn followers into loyal customers across all major platforms.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

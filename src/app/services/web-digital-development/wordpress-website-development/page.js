@@ -34,7 +34,7 @@ const WordPressWebsiteDevelopmentPage = () => {
                   WordPress Website Development Services
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  More than 40% of the internet runs on WordPress — and it&apos;s no coincidence. Here at SocialHawks, we have WordPress website development services that are flexible, fast, and scalable. From WordPress custom designs to corporate or eCommerce sites, our designers create sites that are beautiful and perform.
+                  More than 40% of the internet runs on WordPress — and it&apos;s no coincidence. Here at AY Creative Solution, we have WordPress website development services that are flexible, fast, and scalable. From WordPress custom designs to corporate or eCommerce sites, our designers create sites that are beautiful and perform.
                 </p>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Link href="#contact" className="inline-block bg-primary text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300">
@@ -94,7 +94,7 @@ const WordPressWebsiteDevelopmentPage = () => {
 
             <section className="mb-16">
               <motion.h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-                Why SocialHawks is the Best WordPress Website Development Company
+                Why AY Creative Solution is the Best WordPress Website Development Company
               </motion.h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -167,7 +167,7 @@ const WordPressWebsiteDevelopmentPage = () => {
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                 <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Build Your WordPress Website?</h2>
                 <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                  An effective, scalable, and easy to use WordPress website is what your business really needs. SocialHawks brings you traffic and even more customers through its powerful websites based on results.
+                  An effective, scalable, and easy to use WordPress website is what your business really needs. AY Creative Solution brings you traffic and even more customers through its powerful websites based on results.
                 </p>
                 <p className="text-lg text-gray-400 mb-8">Reach out to us right away and begin your bespoke WordPress development project.</p>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

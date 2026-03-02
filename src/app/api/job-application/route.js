@@ -96,7 +96,7 @@ export async function POST(request) {
     const mailToHR = {
       from: process.env.NM_EMAIL_USER,
       to: process.env.NM_EMAIL_USER,
-      subject: `💼 New Job Application: ${jobTitle} - ${name} | TheSocialHawks`,
+      subject: `💼 New Job Application: ${jobTitle} - ${name} | AY Creative Solution`,
       attachments: attachments,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; background-color: #ffffff;">
@@ -199,7 +199,7 @@ export async function POST(request) {
           <!-- Footer -->
           <div style="text-align: center; padding: 20px; background-color: #1f2937; color: #9ca3af; border-radius: 0 0 12px 12px;">
             <p style="margin: 0; font-size: 14px;">
-              💼 Job Application | TheSocialHawks HR Department
+              💼 Job Application | AY Creative Solution HR Department
             </p>
             <p style="margin: 5px 0 0 0; font-size: 12px;">
               This email was generated automatically from the career application form.
@@ -214,7 +214,7 @@ export async function POST(request) {
       from: process.env.NM_EMAIL_USER,
       to: email,
       replyTo: process.env.NM_EMAIL_USER,
-      subject: `🎉 Application Received: ${jobTitle} - TheSocialHawks`,
+      subject: `🎉 Application Received: ${jobTitle} - AY Creative Solution`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 650px; margin: 0 auto; background-color: #ffffff;">
           <!-- Header -->
@@ -223,7 +223,7 @@ export async function POST(request) {
               🎉 Application Received!
             </h1>
             <p style="color: #d1fae5; margin: 10px 0 0 0; font-size: 16px;">
-              Thank you for applying to TheSocialHawks
+              Thank you for applying to AY Creative Solution
             </p>
           </div>
           
@@ -234,7 +234,7 @@ export async function POST(request) {
             </p>
             
             <p style="font-size: 16px; line-height: 1.6; color: #374151; margin-bottom: 20px;">
-              Thank you for your interest in the <strong>${jobTitle}</strong> position at <strong>TheSocialHawks</strong>! 
+              Thank you for your interest in the <strong>${jobTitle}</strong> position at <strong>AY Creative Solution</strong>! 
               We've successfully received your application and our HR team is excited to review your qualifications.
             </p>
           </div>
@@ -315,7 +315,7 @@ export async function POST(request) {
               <div style="text-align: center; margin: 5px;">
                 <div style="color: #374151; font-weight: bold;">📧 Email</div>
                 <div style="color: #6b7280;">
-info@thesocialhawks.com</div>
+info@aycreativesolution.com</div>
               </div>
               <div style="text-align: center; margin: 5px;">
                 <div style="color: #374151; font-weight: bold;">📱 Phone</div>
@@ -330,9 +330,9 @@ info@thesocialhawks.com</div>
             <p style="color: #6b7280; margin-bottom: 20px;">Follow us to learn more about our company culture:</p>
             
             <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-              <a href="https://www.linkedin.com/company/thesocialhawks" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #0077b5; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">💼 LinkedIn</a>
-              <a href="https://www.instagram.com/thesocialhawks" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #e4405f; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📸 Instagram</a>
-              <a href="https://www.facebook.com/thesocialhawks" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #1877f2; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📘 Facebook</a>
+              <a href="https://www.linkedin.com/company/aycreativesolution" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #0077b5; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">💼 LinkedIn</a>
+              <a href="https://www.instagram.com/aycreativesolution" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #e4405f; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📸 Instagram</a>
+              <a href="https://www.facebook.com/aycreativesolution" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #1877f2; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📘 Facebook</a>
             </div>
           </div>
 
@@ -344,7 +344,7 @@ info@thesocialhawks.com</div>
             
             <p style="font-size: 16px; line-height: 1.6; color: #374151;">
               Best regards,<br>
-              <strong style="color: #10b981;">TheSocialHawks HR Team</strong><br>
+              <strong style="color: #10b981;">AY Creative Solution HR Team</strong><br>
               <em style="color: #6b7280;">Building Tomorrow's Digital Success Stories</em>
             </p>
           </div>
@@ -352,7 +352,7 @@ info@thesocialhawks.com</div>
           <!-- Footer -->
           <div style="text-align: center; padding: 20px; background-color: #1f2937; color: #9ca3af; border-radius: 0 0 12px 12px;">
             <p style="margin: 0; font-size: 14px;">
-              💼 Career Application Confirmation | TheSocialHawks
+              💼 Career Application Confirmation | AY Creative Solution
             </p>
             <p style="margin: 5px 0 0 0; font-size: 12px;">
               This is an automated response. Please do not reply to this email directly.

@@ -532,15 +532,15 @@ const Projects = () => {
 
         /* Primary color theme */
         .bg-primary {
-          background-color: var(--primary, #7f20c4);
+          background-color: var(--primary, #00B4D8);
         }
 
         .text-primary {
-          color: var(--primary, #7f20c4);
+          color: var(--primary, #00B4D8);
         }
 
         .border-primary {
-          border-color: var(--primary, #7f20c4);
+          border-color: var(--primary, #00B4D8);
         }
 
         .hover\\:bg-primary-hover:hover {

@@ -52,7 +52,7 @@ const SearchEngineMarketingPage = () => {
                   Search Engine Marketing & PPC
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Get instant visibility at the top of search results with strategic paid advertising. At SocialHawks, we create and manage high-performing Google Ads and Bing Ads campaigns that drive qualified traffic and maximize your return on ad spend.
+                  Get instant visibility at the top of search results with strategic paid advertising. At AY Creative Solution, we create and manage high-performing Google Ads and Bing Ads campaigns that drive qualified traffic and maximize your return on ad spend.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

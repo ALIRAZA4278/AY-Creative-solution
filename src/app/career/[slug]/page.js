@@ -15,14 +15,14 @@ export async function generateMetadata({ params }) {
   
   if (!job) {
     return {
-      title: 'Job Not Found - TheSocialHawks',
+      title: 'Job Not Found - AY Creative Solution',
     };
   }
 
   return {
-    title: `${job.title} - Career at TheSocialHawks`,
-    description: `Join TheSocialHawks as a ${job.title}. ${job.description} Apply now for this ${job.type} position in ${job.location}.`,
-    keywords: `${job.title}, ${job.department}, career, job, TheSocialHawks, ${job.location}`,
+    title: `${job.title} - Career at AY Creative Solution`,
+    description: `Join AY Creative Solution as a ${job.title}. ${job.description} Apply now for this ${job.type} position in ${job.location}.`,
+    keywords: `${job.title}, ${job.department}, career, job, AY Creative Solution, ${job.location}`,
   };
 }
 

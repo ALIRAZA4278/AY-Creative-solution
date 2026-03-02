@@ -52,7 +52,7 @@ const SEOServicesPage = () => {
                   Search Engine Optimization Services
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  It&apos;s not optional to be found online, it&apos;s mandatory. SocialHawks provides professional search engine optimization (SEO) services that actually improve rankings, capabilities to generate visibility, and drive the right traffic to your site. Whether you are a small business or a big brand, our strategies are geared towards producing the meaningful results for you.
+                  It&apos;s not optional to be found online, it&apos;s mandatory. AY Creative Solution provides professional search engine optimization (SEO) services that actually improve rankings, capabilities to generate visibility, and drive the right traffic to your site. Whether you are a small business or a big brand, our strategies are geared towards producing the meaningful results for you.
                 </p>
 
                 {/* CTA Button */}
@@ -168,7 +168,7 @@ const SEOServicesPage = () => {
               </div>
             </section>
 
-            {/* Why Choose SocialHawks */}
+            {/* Why Choose AY Creative Solution */}
             <section className="mb-16">
               <motion.h2
                 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8"
@@ -176,7 +176,7 @@ const SEOServicesPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
-                Why Choose SocialHawks as Your SEO Company?
+                Why Choose AY Creative Solution as Your SEO Company?
               </motion.h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -394,7 +394,7 @@ const SEOServicesPage = () => {
                   Ready to Rank Higher on Google?
                 </h2>
                 <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-                  Don&apos;t get left behind a competitor – everyone else is investing in search engine optimization! By using Social Hawks&apos; SEO services, you get to work with a partner that defines a strategy that results in real measurable results.
+                  Don&apos;t get left behind a competitor – everyone else is investing in search engine optimization! By using AY Creative Solution&apos;s SEO services, you get to work with a partner that defines a strategy that results in real measurable results.
                 </p>
                 <p className="text-lg text-gray-600 mb-8">
                   Contact us today to formulate your traffic, lead and revenue driving SEO strategy.

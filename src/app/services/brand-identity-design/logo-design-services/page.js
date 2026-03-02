@@ -54,7 +54,7 @@ const LogoDesignServicesPage = () => {
                   Logo Design Services
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  A quality brand starts with a quality logo. At SocialHawks, we specialize in a professional logo design service that represents your brand&apos;s identity and makes a lasting impression on customers. Whether you are a start-up or enterprise-level business, we can create a logo that showcases your business with a visual identity that says it all.
+                  A quality brand starts with a quality logo. At AY Creative Solution, we specialize in a professional logo design service that represents your brand&apos;s identity and makes a lasting impression on customers. Whether you are a start-up or enterprise-level business, we can create a logo that showcases your business with a visual identity that says it all.
                 </p>
 
                 {/* CTA Button */}
@@ -147,7 +147,7 @@ const LogoDesignServicesPage = () => {
                   },
                   {
                     title: "Logo Design Experts",
-                    description: "Our logo design experts employ both strategic and creative thinking to create logos that position your brand image in the best way possible. With SocialHawks, you're not just getting a logo — you're getting an entire identity system."
+                    description: "Our logo design experts employ both strategic and creative thinking to create logos that position your brand image in the best way possible. With AY Creative Solution, you're not just getting a logo — you're getting an entire identity system."
                   }
                 ].map((service, idx) => (
                   <motion.div
@@ -165,7 +165,7 @@ const LogoDesignServicesPage = () => {
               </div>
             </section>
 
-            {/* Why Choose SocialHawks */}
+            {/* Why Choose AY Creative Solution */}
             <section className="mb-16">
               <motion.h2
                 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8"
@@ -173,7 +173,7 @@ const LogoDesignServicesPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
-                Why Choose SocialHawks as your Logo Design Agency?
+                Why Choose AY Creative Solution as your Logo Design Agency?
               </motion.h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -297,7 +297,7 @@ const LogoDesignServicesPage = () => {
                   Ready to Create Your Brand Identity?
                 </h2>
                 <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-                  Your logo speaks for your company brand — we can make it memorable. With SocialHawks, you&apos;ll receive expert, original, and bespoke logo designs that reflect your vision, values, and difference.
+                  Your logo speaks for your company brand — we can make it memorable. With AY Creative Solution, you&apos;ll receive expert, original, and bespoke logo designs that reflect your vision, values, and difference.
                 </p>
                 <p className="text-lg text-gray-600 mb-8">
                   Call today for a free consultation!

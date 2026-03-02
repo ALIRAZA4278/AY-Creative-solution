@@ -34,7 +34,7 @@ const BackendDevelopmentPage = () => {
                   Backend Development Services
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  The digital experience is powered by a strong foundation that is invisible to the user. SocialHawks provides backend development service that speeds up, secures, and scales your applications and websites. Our backend technology includes everything from APIs to databases and gives your business the stronghold to grow.
+                  The digital experience is powered by a strong foundation that is invisible to the user. AY Creative Solution provides backend development service that speeds up, secures, and scales your applications and websites. Our backend technology includes everything from APIs to databases and gives your business the stronghold to grow.
                 </p>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Link href="#contact" className="inline-block bg-primary text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300">
@@ -81,7 +81,7 @@ const BackendDevelopmentPage = () => {
               <div className="space-y-8">
                 {[
                   { title: "Backend Development Services", desc: "We build the backbone of dynamic websites, mobile applications, and enterprise software through backend architecture design and development." },
-                  { title: "Backend Development Company", desc: "With the prospect of a backend developer partner, SocialHawks takes care of the technical aspects with trend-setting coding, organized databases, and safe APIs thus making your online platforms ready for the future." },
+                  { title: "Backend Development Company", desc: "With the prospect of a backend developer partner, AY Creative Solution takes care of the technical aspects with trend-setting coding, organized databases, and safe APIs thus making your online platforms ready for the future." },
                   { title: "API Development & Integration", desc: "Tailored APIs to provide connection for payment bazaars, customer support systems, and all other outside applications to work harmoniously." },
                   { title: "Database Management", desc: "Database formats that are safe and efficient (SQL, NoSQL, MongoDB, PostgreSQL, MySQL) to ensure the accuracy of data processing." }
                 ].map((service, idx) => (
@@ -95,7 +95,7 @@ const BackendDevelopmentPage = () => {
 
             <section className="mb-16">
               <motion.h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-                Why Choose SocialHawks for Backend Development?
+                Why Choose AY Creative Solution for Backend Development?
               </motion.h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -168,7 +168,7 @@ const BackendDevelopmentPage = () => {
               <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
                 <h2 className="text-3xl sm:text-4xl font-bold mb-4">Ready to Power Your Business with a Strong Backend?</h2>
                 <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                  The journey of your digital success starts with a solid backend. SocialHawks&apos; backend development services provide you with dependable, safe, and scalable solutions customized to your business.
+                  The journey of your digital success starts with a solid backend. AY Creative Solution&apos; backend development services provide you with dependable, safe, and scalable solutions customized to your business.
                 </p>
                 <p className="text-lg text-gray-400 mb-8">Reach out to us today and establish a firm base for your digital platforms.</p>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

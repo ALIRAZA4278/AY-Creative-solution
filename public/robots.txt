@@ -1,4 +1,4 @@
-# robots.txt for The Social Hawks – https://thesocialhawks.com/
+# robots.txt for AY Creative Solution ï¿½ https://aycreativesolution.com/
 # Allow major search engines and AI services to crawl public content and helpful resources
 
 User-agent: *
@@ -18,7 +18,7 @@ Disallow: /search/
 Disallow: /?utm_*
 
 # Sitemap location(s)
-Sitemap: https://thesocialhawks.com/sitemap.xml
+Sitemap: https://aycreativesolution.com/sitemap.xml
 
 # Crawl-delay directive (optional, for less aggressive bots)
 Crawl-delay: 10

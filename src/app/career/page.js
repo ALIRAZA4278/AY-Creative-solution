@@ -5,6 +5,6 @@ export default function CareerPage() {
 }
 
 export const metadata = {
-  title: 'Career Opportunities - TheSocialHawks',
-  description: 'Join our team at TheSocialHawks. Explore exciting career opportunities in digital marketing, design, content creation, and more. Apply today!',
+  title: 'Career Opportunities - AY Creative Solution',
+  description: 'Join our team at AY Creative Solution. Explore exciting career opportunities in digital marketing, design, content creation, and more. Apply today!',
 };

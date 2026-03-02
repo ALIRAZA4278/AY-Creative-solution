@@ -60,7 +60,7 @@ export const projectsData = [
       }
     ],
     testimonial: {
-      text: "The Social Hawks delivered exceptional results for our gym launch. Their creative approach and strategic advertising helped us achieve all our membership targets within just 2 months. The quality of leads and brand visibility we gained was beyond our expectations.",
+      text: "AY Creative Solution delivered exceptional results for our gym launch. Their creative approach and strategic advertising helped us achieve all our membership targets within just 2 months. The quality of leads and brand visibility we gained was beyond our expectations.",
       author: "MFit Management Team",
       position: "Premium Fitness Center"
     },
@@ -589,7 +589,7 @@ export const projectsData = [
     clientLogo: '/images/logo/35.jpg',
     category: 'Herbal & Natural Products | E-Commerce',
     shortDescription: 'Long-term digital marketing partnership to position Dr Herbs as a household name for authentic herbal remedies across Pakistan.',
-    description: 'Dr Herbs, a trusted herbal and wellness brand, partnered with SocialHawks to strengthen its online presence and increase product sales across Pakistan. As a long-term collaboration starting in December 2022, our mission has been to position Dr Herbs as a household name for safe, authentic, and effective herbal remedies through a consistent digital strategy and premium creative execution. We executed a complete, multi-channel digital marketing ecosystem built for growth — from brand storytelling to performance marketing. Our team managed every aspect of their digital presence, from website design and SEO to influencer collaborations, ensuring continuous brand visibility and sales momentum.',
+    description: 'Dr Herbs, a trusted herbal and wellness brand, partnered with AY Creative Solution to strengthen its online presence and increase product sales across Pakistan. As a long-term collaboration starting in December 2022, our mission has been to position Dr Herbs as a household name for safe, authentic, and effective herbal remedies through a consistent digital strategy and premium creative execution. We executed a complete, multi-channel digital marketing ecosystem built for growth — from brand storytelling to performance marketing. Our team managed every aspect of their digital presence, from website design and SEO to influencer collaborations, ensuring continuous brand visibility and sales momentum.',
     images: [
       '/images/projects/DR HERBS/DR HERBS (1).jpg',
       '/images/projects/DR HERBS/DR HERBS (2).jpg',
@@ -662,7 +662,7 @@ export const projectsData = [
     clientLogo: '/images/logo/28.png',
     category: 'BPO | Call Center',
     shortDescription: 'Comprehensive employer branding and recruitment campaign to position The Cactus as a top BPO destination for international sales professionals.',
-    description: 'The Cactus, a dynamic and fast-expanding BPO company, partnered with SocialHawks to strengthen its online presence and position itself as a top recruitment destination for international sales professionals in Pakistan. Our mission was to create a strong employer brand, generate high-quality leads, and visually represent the company\'s energetic workplace culture. We developed a complete digital marketing and creative campaign that captured the spirit of The Cactus — modern, ambitious, and opportunity-driven. From on-site video shoots and photography to targeted Meta Ads, our team managed every element of their online strategy to drive awareness, attract applicants, and build brand credibility within the BPO industry.',
+    description: 'The Cactus, a dynamic and fast-expanding BPO company, partnered with AY Creative Solution to strengthen its online presence and position itself as a top recruitment destination for international sales professionals in Pakistan. Our mission was to create a strong employer brand, generate high-quality leads, and visually represent the company\'s energetic workplace culture. We developed a complete digital marketing and creative campaign that captured the spirit of The Cactus — modern, ambitious, and opportunity-driven. From on-site video shoots and photography to targeted Meta Ads, our team managed every element of their online strategy to drive awareness, attract applicants, and build brand credibility within the BPO industry.',
     images: [
       '/images/projects/Cactus Creatives/Cactus Creatives (1).jpg',
       '/images/projects/Cactus Creatives/Cactus Creatives (2).jpg',
@@ -730,7 +730,7 @@ export const projectsData = [
     clientLogo: '/images/logo/24.jpg',
     category: 'E-Commerce',
     shortDescription: 'Fast-growing vape and e-cigarette brand - building strong digital foundation and establishing market leadership in Pakistan\'s e-commerce vape market.',
-    description: 'FlexVapes, a fast-growing vape and e-cigarette brand, partnered with SocialHawks to build a strong digital foundation and establish itself as a leader in Pakistan\'s e-commerce vape market. The goal was to create a premium online presence, expand brand awareness, and drive consistent online sales through a powerful blend of creativity, storytelling, and strategy. We crafted a complete digital ecosystem for FlexVapes, combining website development, content creation, and high-performance marketing campaigns. From sleek visuals to compelling brand messaging, our team designed and executed a strategy that elevated the brand\'s image and maximized its market potential.',
+    description: 'FlexVapes, a fast-growing vape and e-cigarette brand, partnered with AY Creative Solution to build a strong digital foundation and establish itself as a leader in Pakistan\'s e-commerce vape market. The goal was to create a premium online presence, expand brand awareness, and drive consistent online sales through a powerful blend of creativity, storytelling, and strategy. We crafted a complete digital ecosystem for FlexVapes, combining website development, content creation, and high-performance marketing campaigns. From sleek visuals to compelling brand messaging, our team designed and executed a strategy that elevated the brand\'s image and maximized its market potential.',
     images: [
       '/images/projects/Flex Vapes/Flex Vapes (1).jpg',
       '/images/projects/Flex Vapes/Flex Vapes (2).jpg',

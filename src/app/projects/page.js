@@ -533,7 +533,7 @@ const ProjectsPage = () => {
         /* Focus styles for accessibility */
         button:focus-visible,
         a:focus-visible {
-          outline: 2px solid #7f20c4;
+          outline: 2px solid #00B4D8;
           outline-offset: 2px;
         }
       `}</style>

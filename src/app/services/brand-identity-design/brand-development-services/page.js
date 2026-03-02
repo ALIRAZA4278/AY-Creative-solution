@@ -54,7 +54,7 @@ const BrandDevelopmentServicesPage = () => {
                   Brand Development Services
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  A brand transcends a mere logo; it&apos;s the whole story, the sound of its voice, the bond developed with the public. SocialHawks offers expert brand development services to help companies manufacture substantial identities, stand out from the competition, and win customer loyalty.
+                  A brand transcends a mere logo; it&apos;s the whole story, the sound of its voice, the bond developed with the public. AY Creative Solution offers expert brand development services to help companies manufacture substantial identities, stand out from the competition, and win customer loyalty.
                 </p>
 
                 {/* CTA Button */}
@@ -162,7 +162,7 @@ const BrandDevelopmentServicesPage = () => {
               </div>
             </section>
 
-            {/* Why Choose SocialHawks */}
+            {/* Why Choose AY Creative Solution */}
             <section className="mb-16">
               <motion.h2
                 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8"
@@ -170,7 +170,7 @@ const BrandDevelopmentServicesPage = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
               >
-                Why Choose SocialHawks as Your Brand Development Agency?
+                Why Choose AY Creative Solution as Your Brand Development Agency?
               </motion.h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -304,7 +304,7 @@ const BrandDevelopmentServicesPage = () => {
                   Ready to Build a Powerful Brand?
                 </h2>
                 <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                  Your brand is your most valuable asset. SocialHawks&apos; brand development services craft strategies and identities that foster trust, loyalty, and future growth.
+                  Your brand is your most valuable asset. AY Creative Solution&apos; brand development services craft strategies and identities that foster trust, loyalty, and future growth.
                 </p>
                 <p className="text-lg text-gray-400 mb-8">
                   Call us for support with creating an end-to-end brand identity that truly represents that business you are creating.

@@ -52,7 +52,7 @@ const WebHostingPage = () => {
                   Web Hosting Solutions
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Fast, secure, and reliable web hosting that keeps your website running 24/7. At SocialHawks, we offer hosting solutions from shared to dedicated servers, optimized for performance, security, and scalability to match your business needs.
+                  Fast, secure, and reliable web hosting that keeps your website running 24/7. At AY Creative Solution, we offer hosting solutions from shared to dedicated servers, optimized for performance, security, and scalability to match your business needs.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

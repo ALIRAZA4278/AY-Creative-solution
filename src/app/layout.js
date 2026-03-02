@@ -2,27 +2,27 @@ import Script from 'next/script';
 import "./globals.css";
 
 export const metadata = {
-  title: "The Social Hawks - Digital Marketing Agency",
+  title: "AY Creative Solution - Digital Marketing Agency",
   description: "Professional social media management, content creation, and digital marketing solutions that help your brand soar.",
   keywords: "digital marketing, social media management, content creation, branding, web development, SEO, graphic design",
-  authors: [{ name: "The Social Hawks" }],
-  creator: "The Social Hawks",
-  publisher: "The Social Hawks",
-  metadataBase: new URL('https://thesocialhawks.com'),
+  authors: [{ name: "AY Creative Solution" }],
+  creator: "AY Creative Solution",
+  publisher: "AY Creative Solution",
+  metadataBase: new URL('https://aycreativesolution.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
-    title: "The Social Hawks - Digital Marketing Agency",
+    title: "AY Creative Solution - Digital Marketing Agency",
     description: "Professional social media management, content creation, and digital marketing solutions that help your brand soar.",
-    url: 'https://thesocialhawks.com',
-    siteName: 'The Social Hawks',
+    url: 'https://aycreativesolution.com',
+    siteName: 'AY Creative Solution',
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: "The Social Hawks - Digital Marketing Agency",
+    title: "AY Creative Solution - Digital Marketing Agency",
     description: "Professional social media management, content creation, and digital marketing solutions that help your brand soar.",
   },
   robots: {

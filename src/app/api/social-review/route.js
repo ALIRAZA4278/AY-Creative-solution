@@ -123,7 +123,7 @@ export async function POST(request) {
     const mailToYou = {
       from: process.env.NM_EMAIL_USER,
       to: process.env.NM_EMAIL_USER,
-      subject: `🔍 Social Media Review Request - ${name} | TheSocialHawks`,
+      subject: `🔍 Social Media Review Request - ${name} | AY Creative Solution`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 700px; margin: 0 auto; background-color: #ffffff;">
           <!-- Header -->
@@ -202,7 +202,7 @@ export async function POST(request) {
           <!-- Footer -->
           <div style="text-align: center; padding: 20px; background-color: #1f2937; color: #9ca3af; border-radius: 0 0 12px 12px;">
             <p style="margin: 0; font-size: 14px;">
-              🚀 Social Media Review Request | TheSocialHawks
+              🚀 Social Media Review Request | AY Creative Solution
             </p>
             <p style="margin: 5px 0 0 0; font-size: 12px;">
               This email was generated automatically from the social media review form.
@@ -217,7 +217,7 @@ export async function POST(request) {
       from: process.env.NM_EMAIL_USER,
       to: email,
       replyTo: process.env.NM_EMAIL_USER,
-      subject: `🎉 Social Media Review Request Received - TheSocialHawks`,
+      subject: `🎉 Social Media Review Request Received - AY Creative Solution`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 650px; margin: 0 auto; background-color: #ffffff;">
           <!-- Header -->
@@ -237,7 +237,7 @@ export async function POST(request) {
             </p>
             
             <p style="font-size: 16px; line-height: 1.6; color: #374151; margin-bottom: 20px;">
-              Thank you for requesting a social media review from <strong>TheSocialHawks</strong>! 
+              Thank you for requesting a social media review from <strong>AY Creative Solution</strong>! 
               We've received your submission and our expert team is excited to analyze your social media presence.
             </p>
           </div>
@@ -321,10 +321,10 @@ export async function POST(request) {
             <p style="color: #6b7280; margin-bottom: 20px;">Follow us on social media for tips and insights:</p>
             
             <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-              <a href="https://www.facebook.com/thesocialhawks" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #1877f2; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📘 Facebook</a>
-              <a href="https://www.linkedin.com/company/thesocialhawks" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #0077b5; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">💼 LinkedIn</a>
-              <a href="https://www.instagram.com/thesocialhawks" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #e4405f; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📸 Instagram</a>
-              <a href="https://www.youtube.com/@thesocialhawks" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #ff0000; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📺 YouTube</a>
+              <a href="https://www.facebook.com/aycreativesolution" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #1877f2; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📘 Facebook</a>
+              <a href="https://www.linkedin.com/company/aycreativesolution" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #0077b5; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">💼 LinkedIn</a>
+              <a href="https://www.instagram.com/aycreativesolution" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #e4405f; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📸 Instagram</a>
+              <a href="https://www.youtube.com/@aycreativesolution" style="display: inline-block; margin: 5px; padding: 10px 20px; background-color: #ff0000; color: white; text-decoration: none; border-radius: 6px; font-size: 14px;">📺 YouTube</a>
             </div>
           </div>
 
@@ -336,7 +336,7 @@ export async function POST(request) {
             
             <p style="font-size: 16px; line-height: 1.6; color: #374151;">
               Best regards,<br>
-              <strong style="color: #10b981;">TheSocialHawks Team</strong><br>
+              <strong style="color: #10b981;">AY Creative Solution Team</strong><br>
               <em style="color: #6b7280;">Your Social Media Growth Partners</em>
             </p>
           </div>
@@ -344,7 +344,7 @@ export async function POST(request) {
           <!-- Footer -->
           <div style="text-align: center; padding: 20px; background-color: #1f2937; color: #9ca3af; border-radius: 0 0 12px 12px;">
             <p style="margin: 0; font-size: 14px;">
-              🎯 Social Media Review | TheSocialHawks
+              🎯 Social Media Review | AY Creative Solution
             </p>
             <p style="margin: 5px 0 0 0; font-size: 12px;">
               This is an automated response. We'll be in touch soon with your personalized review!

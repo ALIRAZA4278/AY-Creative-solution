@@ -79,13 +79,13 @@ const serviceDetails = {
     ],
     testimonials: [
       {
-        text: "SocialHawks transformed our online presence completely. The brand identity work they delivered helped us stand out in a crowded market and position ourselves as industry leaders.",
+        text: "AY Creative Solution transformed our online presence completely. The brand identity work they delivered helped us stand out in a crowded market and position ourselves as industry leaders.",
         author: "David Martinez",
         position: "Founder, TechVenture Solutions",
         rating: 5
       },
       {
-        text: "Working with SocialHawks was a game-changer for our business. Their creative team is incredibly professional and results-focused. Our brand now truly reflects our values and connects with our audience.",
+        text: "Working with AY Creative Solution was a game-changer for our business. Their creative team is incredibly professional and results-focused. Our brand now truly reflects our values and connects with our audience.",
         author: "Jennifer Park",
         position: "Marketing Director, HealthCare Plus",
         rating: 5
@@ -291,13 +291,13 @@ const serviceDetails = {
     ],
     testimonials: [
       {
-        text: "SocialHawks delivered exceptional designs that elevated our entire brand. Their attention to detail and creative approach made all the difference in our market positioning.",
+        text: "AY Creative Solution delivered exceptional designs that elevated our entire brand. Their attention to detail and creative approach made all the difference in our market positioning.",
         author: "Robert Johnson",
         position: "CEO, Digital Ventures",
         rating: 5
       },
       {
-        text: "The team at SocialHawks is incredibly talented and professional. They consistently deliver high-quality work that drives real results for our business.",
+        text: "The team at AY Creative Solution is incredibly talented and professional. They consistently deliver high-quality work that drives real results for our business.",
         author: "Amanda Chen",
         position: "Marketing Lead, Innovation Hub",
         rating: 5
@@ -420,7 +420,7 @@ const serviceDetails = {
       { title: "Faster Approvals", description: "Professional planning reduces reshoots and ensures compliance.", icon: "✅" }
     ],
     testimonials: [
-      { text: "SocialHawks produced outstanding video content that perfectly captured our brand story. The production quality and creative direction exceeded all our expectations.", author: "Michael Thompson", position: "Director of Marketing, Urban Spaces", rating: 5 }
+      { text: "AY Creative Solution produced outstanding video content that perfectly captured our brand story. The production quality and creative direction exceeded all our expectations.", author: "Michael Thompson", position: "Director of Marketing, Urban Spaces", rating: 5 }
     ],
     faq: [
       { question: "Do you handle flight permissions?", answer: "Yes — we manage local permissions, no-fly checks, and site risk assessments as part of our service." },
@@ -588,7 +588,7 @@ const serviceDetails = {
     ],
     testimonials: [
       {
-        text: "SocialHawks delivered an exceptional e-commerce platform that exceeded our expectations. The site is fast, secure, and our sales have increased by 300% since launch.",
+        text: "AY Creative Solution delivered an exceptional e-commerce platform that exceeded our expectations. The site is fast, secure, and our sales have increased by 300% since launch.",
         author: "Sarah Johnson",
         position: "CEO, ShopTrend Online",
         rating: 5
@@ -998,7 +998,7 @@ const serviceDetails = {
     ],
     testimonials: [
       {
-        text: "SocialHawks transformed our digital marketing completely. Within 3 months, our online sales tripled and our cost per acquisition dropped by 40%. Best investment we've made.",
+        text: "AY Creative Solution transformed our digital marketing completely. Within 3 months, our online sales tripled and our cost per acquisition dropped by 40%. Best investment we've made.",
         author: "Robert Anderson",
         position: "CMO, FitLife Supplements",
         rating: 5
@@ -1395,7 +1395,7 @@ const ServiceDetailPage = () => {
         {/* Hero Section */}
         <motion.div 
           ref={heroRef}
-          className="py-5 bg-gradient-to-br from-slate-50 via-white to-purple-50 relative overflow-hidden"
+          className="py-5 bg-gradient-to-br from-slate-50 via-white to-sky-50 relative overflow-hidden"
           initial={{ opacity: 0, y: 50 }}
           animate={isHeroInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -1403,8 +1403,8 @@ const ServiceDetailPage = () => {
           {/* Enhanced Background Pattern */}
           <div className="absolute inset-0">
             <motion.div 
-              className="absolute top-20 left-10 w-64 h-64 bg-gradient-to-r from-primary/20 to-purple-400/20 rounded-full blur-3xl"
-              animate={{ 
+              className="absolute top-20 left-10 w-64 h-64 bg-gradient-to-r from-primary/20 to-cyan-400/20 rounded-full blur-3xl"
+              animate={{
                 x: [0, 30, 0],
                 y: [0, -20, 0],
                 scale: [1, 1.1, 1]
@@ -1416,7 +1416,7 @@ const ServiceDetailPage = () => {
               }}
             />
             <motion.div 
-              className="absolute bottom-20 right-10 w-80 h-80 bg-gradient-to-l from-purple-400/20 to-primary/20 rounded-full blur-3xl"
+              className="absolute bottom-20 right-10 w-80 h-80 bg-gradient-to-l from-cyan-400/20 to-primary/20 rounded-full blur-3xl"
               animate={{ 
                 x: [0, -25, 0],
                 y: [0, 25, 0],
@@ -1430,7 +1430,7 @@ const ServiceDetailPage = () => {
               }}
             />
             <motion.div 
-              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-indigo-300/15 to-purple-300/15 rounded-full blur-3xl"
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-gradient-to-br from-indigo-300/15 to-sky-300/15 rounded-full blur-3xl"
               animate={{ 
                 rotate: [0, 180, 360],
                 scale: [1, 1.2, 1]
@@ -1447,7 +1447,7 @@ const ServiceDetailPage = () => {
             <div className="text-center max-w-5xl mx-auto">
               {/* Service Badge */}
               <motion.div 
-                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary/10 to-purple-500/10 backdrop-blur-sm border border-primary/20 text-primary rounded-full text-sm font-semibold mb-8"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-primary/10 to-sky-500/10 backdrop-blur-sm border border-primary/20 text-primary rounded-full text-sm font-semibold mb-8"
                 initial={{ scale: 0.8, opacity: 0 }}
                 animate={isHeroInView ? { scale: 1, opacity: 1 } : { scale: 0.8, opacity: 0 }}
                 transition={{ duration: 0.6, delay: 0.3 }}
@@ -1465,7 +1465,7 @@ const ServiceDetailPage = () => {
                 animate={isHeroInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                <span className="bg-gradient-to-r from-gray-900 via-primary to-purple-600 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-gray-900 via-primary to-sky-600 bg-clip-text text-transparent">
                   {service.title}
                 </span>
               </motion.h1>
@@ -1514,7 +1514,7 @@ const ServiceDetailPage = () => {
                <Link 
                 href="/#contact">
 
-              <button className="inline-flex items-center gap-2 border-2 border-primary text-[#7f20c4] hover:bg-primary hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300">
+              <button className="inline-flex items-center gap-2 border-2 border-primary text-[#00B4D8] hover:bg-primary hover:text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300">
                 Learn More
               </button>
                 </Link>
@@ -1670,7 +1670,7 @@ const ServiceDetailPage = () => {
                   
                   {/* Decorative Elements */}
                   <motion.div 
-                    className="absolute -top-6 -right-6 w-24 h-24 bg-gradient-to-br from-primary/10 to-purple-500/10 rounded-full blur-2xl opacity-10 transition-opacity duration-500"
+                    className="absolute -top-6 -right-6 w-24 h-24 bg-gradient-to-br from-primary/10 to-sky-500/10 rounded-full blur-2xl opacity-10 transition-opacity duration-500"
                     animate={{ 
                       rotate: [0, 180, 360],
                       scale: [1, 1.1, 1]
@@ -1686,7 +1686,7 @@ const ServiceDetailPage = () => {
                   <div className="relative z-10 flex flex-col h-full">
                     {/* Icon Container */}
                     <motion.div 
-                      className="w-16 h-16 bg-gradient-to-br from-primary/20 to-purple-500/20 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300"
+                      className="w-16 h-16 bg-gradient-to-br from-primary/20 to-sky-500/20 rounded-2xl flex items-center justify-center mb-6 transition-all duration-300"
                       initial={{ scale: 0, rotate: -180 }}
                       animate={isServicesInView ? { scale: 1, rotate: 0 } : { scale: 0, rotate: -180 }}
                       transition={{ duration: 0.6, delay: index * 0.05 + 0.2, type: "spring", stiffness: 200 }}
@@ -1756,7 +1756,7 @@ const ServiceDetailPage = () => {
                   
                   {/* Animated Border */}
                   <motion.div 
-                    className="absolute inset-0 rounded-3xl border-2 border-transparent bg-gradient-to-r from-primary/20 via-purple-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                    className="absolute inset-0 rounded-3xl border-2 border-transparent bg-gradient-to-r from-primary/20 via-sky-500/20 to-sky-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     style={{ 
                       background: 'linear-gradient(45deg, transparent, transparent), linear-gradient(45deg, #6366f1, #8b5cf6, #06b6d4)',
                       backgroundClip: 'padding-box, border-box',

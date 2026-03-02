@@ -1,7 +1,7 @@
 /* THEME COLORS - Change colors here for easy theme management */
 :root {
-  --primary: #7f20c4;      /* Green color for highlights and buttons */
-  --primary-hover: #5a2a7c; /* Darker green for hover states */
+  --primary: #00B4D8;      /* Cyan blue for highlights and buttons */
+  --primary-hover: #0077B6; /* Darker blue for hover states */
   --text: #374151;         /* Main text color (gray-700) */
   --text-light: #6B7280;   /* Light text color (gray-500) */
   --background: #FFFFFF;   /* Background color */

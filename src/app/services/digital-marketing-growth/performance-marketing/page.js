@@ -52,7 +52,7 @@ const PerformanceMarketingPage = () => {
                   Performance Marketing
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Results-driven marketing where you only pay for measurable outcomes. At SocialHawks, we design and execute performance marketing campaigns that focus on conversions, ROAS, and real business growth—not vanity metrics.
+                  Results-driven marketing where you only pay for measurable outcomes. At AY Creative Solution, we design and execute performance marketing campaigns that focus on conversions, ROAS, and real business growth—not vanity metrics.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

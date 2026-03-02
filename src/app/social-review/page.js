@@ -5,6 +5,6 @@ export default function SocialReviewPage() {
 }
 
 export const metadata = {
-  title: 'Social Media Review - TheSocialHawks',
-  description: 'Get professional analysis of your social media presence from TheSocialHawks experts.',
+  title: 'Social Media Review - AY Creative Solution',
+  description: 'Get professional analysis of your social media presence from AY Creative Solution experts.',
 };

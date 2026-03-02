@@ -52,7 +52,7 @@ const ProfessionalWebsiteDevelopmentPage = () => {
                   Professional Website Development Services
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Your website is not just a digital presence — it is the core of your business expansion. At The SocialHawks, we offer professional website development services that strike the perfect balance between trendsetting designs, advanced technology, and features, helping you attract new customers and retain existing ones.
+                  Your website is not just a digital presence — it is the core of your business expansion. At AY Creative Solution, we offer professional website development services that strike the perfect balance between trendsetting designs, advanced technology, and features, helping you attract new customers and retain existing ones.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
@@ -124,7 +124,7 @@ const ProfessionalWebsiteDevelopmentPage = () => {
             {/* Benefits of Partnering */}
             <section className="mb-16">
               <motion.h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-                Benefits of Partnering with The SocialHawks
+                Benefits of Partnering with AY Creative Solution
               </motion.h2>
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -197,7 +197,7 @@ const ProfessionalWebsiteDevelopmentPage = () => {
                   Ready to Have Your Website Built?
                 </h2>
                 <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-                  Your customers are online, so it&apos;s time to get noticed. Join The SocialHawks for expert website development that turns your imagination into a reality.
+                  Your customers are online, so it&apos;s time to get noticed. Join AY Creative Solution for expert website development that turns your imagination into a reality.
                 </p>
                 <p className="text-lg text-gray-400 mb-8">
                   Call us for a free consultation, and let&apos;s talk about your project!

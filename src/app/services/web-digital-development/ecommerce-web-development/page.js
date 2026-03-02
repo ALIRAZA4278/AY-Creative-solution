@@ -34,7 +34,7 @@ const EcommerceWebDevelopmentPage = () => {
                   Ecommerce Web Design & Development Services
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Your eCommerce website is not a mere online shop if you have an ease-of-use, fast, and also at the same time creative eCommerce web design and development. SocialHawks provides the eCommerce solutions that are more customer-centered and also they are free from the worries of being hacked, the web development will be done secured and with conversion-focused strategies that will help you sell more easily and effectively through the internet.
+                  Your eCommerce website is not a mere online shop if you have an ease-of-use, fast, and also at the same time creative eCommerce web design and development. AY Creative Solution provides the eCommerce solutions that are more customer-centered and also they are free from the worries of being hacked, the web development will be done secured and with conversion-focused strategies that will help you sell more easily and effectively through the internet.
                 </p>
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
                   <Link href="#contact" className="inline-block bg-primary text-white px-8 py-4 rounded-full font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300">

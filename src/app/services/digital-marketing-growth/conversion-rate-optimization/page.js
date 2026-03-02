@@ -52,7 +52,7 @@ const ConversionRateOptimizationPage = () => {
                   Conversion Rate Optimization
                 </h1>
                 <p className="text-xl text-gray-700 leading-relaxed mb-8">
-                  Turn more visitors into customers without spending more on traffic. At SocialHawks, we use data-driven CRO strategies to optimize your website, landing pages, and funnels for maximum conversions and revenue.
+                  Turn more visitors into customers without spending more on traffic. At AY Creative Solution, we use data-driven CRO strategies to optimize your website, landing pages, and funnels for maximum conversions and revenue.
                 </p>
 
                 <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

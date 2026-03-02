@@ -45,14 +45,14 @@ const Career = () => {
         <Navbar />
         
         {/* Hero Section - Simple */}
-      <section className="bg-purple-600 text-white py-20 lg:py-32">
+      <section className="bg-[#00B4D8] text-white py-20 lg:py-32">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-            Explore Careers at TheSocialHawks
+            Explore Careers at AY Creative Solution
           </h1>
           
           <p className="text-xl lg:text-2xl text-blue-100 mb-8 max-w-4xl mx-auto leading-relaxed">
-            At TheSocialHawks, we&apos;re focused on doing good work and growing together. If you&apos;re passionate about marketing and looking for a place to learn and contribute, we&apos;d love to have you on the team. Check out our openings and see if you&apos;d be a good fit.
+            At AY Creative Solution, we&apos;re focused on doing good work and growing together. If you&apos;re passionate about marketing and looking for a place to learn and contribute, we&apos;d love to have you on the team. Check out our openings and see if you&apos;d be a good fit.
           </p>
 
           <button 
@@ -65,19 +65,19 @@ const Career = () => {
       </section>
 
       {/* Company Culture & Benefits Section */}
-      <section className="py-20 bg-gradient-to-br from-gray-900 via-purple-900 to-purple-800 text-white relative overflow-hidden">
+      <section className="py-20 bg-gradient-to-br from-gray-900 via-sky-900 to-sky-800 text-white relative overflow-hidden">
         {/* Background Patterns */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 left-10 w-64 h-64 border border-white/20 rounded-full"></div>
-          <div className="absolute bottom-10 right-10 w-48 h-48 bg-purple-400/20 rounded-full blur-3xl"></div>
-          <div className="absolute top-1/2 left-1/4 w-32 h-32 bg-pink-400/20 rounded-full blur-2xl"></div>
+          <div className="absolute bottom-10 right-10 w-48 h-48 bg-sky-400/20 rounded-full blur-3xl"></div>
+          <div className="absolute top-1/2 left-1/4 w-32 h-32 bg-cyan-400/20 rounded-full blur-2xl"></div>
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl sm:text-5xl font-bold mb-6">
               Why Choose 
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-300"> TheSocialHawks?</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-300"> AY Creative Solution?</span>
             </h2>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
               We&apos;re not just a workplace - we&apos;re a launchpad for your career, creativity, and personal growth in the digital marketing universe.
@@ -87,8 +87,8 @@ const Career = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             {/* Benefit 1 - Learning & Development */}
             <div className="group relative bg-white/10 backdrop-blur-lg rounded-3xl p-8 border border-white/20 hover:bg-white/15 transition-all duration-500 hover:scale-105">
-              <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-br from-purple-400 to-pink-400 rounded-full opacity-60"></div>
-              <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-6 transition-transform duration-300">
+              <div className="absolute -top-4 -right-4 w-8 h-8 bg-gradient-to-br from-cyan-400 to-sky-400 rounded-full opacity-60"></div>
+              <div className="w-16 h-16 bg-gradient-to-br from-cyan-500 to-sky-600 rounded-2xl flex items-center justify-center mb-6 group-hover:rotate-6 transition-transform duration-300">
                 <span className="text-2xl">🎓</span>
               </div>
               <h3 className="text-2xl font-bold mb-4">Learning & Development</h3>
@@ -142,7 +142,7 @@ const Career = () => {
             <h3 className="text-2xl sm:text-3xl font-bold text-center mb-6 lg:mb-8">Our Culture in Numbers</h3>
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 mb-1 lg:mb-2">95%</div>
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-sky-400 mb-1 lg:mb-2">95%</div>
                 <div className="text-gray-400 text-xs sm:text-sm lg:text-base">Employee Satisfaction</div>
               </div>
               <div className="text-center">
@@ -154,7 +154,7 @@ const Career = () => {
                 <div className="text-gray-400 text-xs sm:text-sm lg:text-base">Countries Served</div>
               </div>
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-purple-400 mb-1 lg:mb-2">3.5</div>
+                <div className="text-2xl sm:text-3xl lg:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-cyan-400 mb-1 lg:mb-2">3.5</div>
                 <div className="text-gray-400 text-xs sm:text-sm lg:text-base">Years Avg. Tenure</div>
               </div>
             </div>
@@ -254,7 +254,7 @@ const Career = () => {
                 <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
               </p>
               <p className="text-text-white  text-sm">
-                ©socialhawks. All Rights Reserved.
+                ©AY Creative Solution. All Rights Reserved.
               </p>
             </div>
           </div>  
