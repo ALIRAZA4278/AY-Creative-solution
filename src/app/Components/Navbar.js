@@ -85,9 +85,9 @@ const Navbar = () => {
                 <Image
                   src="/ay creative logo.png"
                   alt="AY Creative Solution Logo"
-                  width={150}
-                  height={80}
-                  className="h-15 sm:h-18 lg:h-20 w-auto object-contain"
+                  width={220}
+                  height={100}
+                  className="h-20 sm:h-24 lg:h-28 w-auto object-contain"
                   priority
                 />
               </motion.div>

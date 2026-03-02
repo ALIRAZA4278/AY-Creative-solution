@@ -252,9 +252,9 @@ const Contact = () => {
                 <Image
                   src="/ay creative logo.png"
                   alt="AY Creative Solution Logo"
-                  width={200}
-                  height={60}
-                  className="h-25 w-auto object-contain"
+                  width={280}
+                  height={90}
+                  className="h-32 w-auto object-contain"
                 />
               </div>
               
