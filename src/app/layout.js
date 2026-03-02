@@ -4,41 +4,6 @@ import "./globals.css";
 export const metadata = {
   title: "AY Creative Solution - Digital Marketing Agency",
   description: "Professional social media management, content creation, and digital marketing solutions that help your brand soar.",
-  keywords: "digital marketing, social media management, content creation, branding, web development, SEO, graphic design",
-  authors: [{ name: "AY Creative Solution" }],
-  creator: "AY Creative Solution",
-  publisher: "AY Creative Solution",
-  metadataBase: new URL('https://aycreativesolution.com'),
-  alternates: {
-    canonical: '/',
-  },
-  openGraph: {
-    title: "AY Creative Solution - Digital Marketing Agency",
-    description: "Professional social media management, content creation, and digital marketing solutions that help your brand soar.",
-    url: 'https://aycreativesolution.com',
-    siteName: 'AY Creative Solution',
-    locale: 'en_US',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: "AY Creative Solution - Digital Marketing Agency",
-    description: "Professional social media management, content creation, and digital marketing solutions that help your brand soar.",
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
-  verification: {
-    google: 'bOFpGzsYOqzOPJsEdSd1yWALn2vOc1lCyPxXDnvstq8',
-  },
 };
 
 export default function RootLayout({ children }) {

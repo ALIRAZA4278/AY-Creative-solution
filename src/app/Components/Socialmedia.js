@@ -3,7 +3,7 @@
 const Socialmedia = () => {
     return (
         <div className="text-center mb-8">
-            <div className="bg-purple-600 rounded-2xl p-6 mb-8">
+            <div className="bg-[#00B4D8] rounded-2xl p-6 mb-8">
                 <h3 className="text-white font-bold text-xl mb-3">Get a free anlysis on your brand Now</h3>
                 <p className="text-gray-200 mb-4">Get a FREE professional review of all your social media accounts!</p>
                 <button

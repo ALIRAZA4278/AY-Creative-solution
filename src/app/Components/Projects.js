@@ -175,7 +175,7 @@ const Projects = () => {
                   
                   {/* Top Section: Category & Arrow */}
                   <div className="flex items-start justify-between mb-6">
-                    {/* Category Badge - Purple dot with text */}
+                    {/* Category Badge */}
                     <div className="flex items-center gap-2">
                       <div className="w-2 h-2 bg-primary rounded-full"></div>
                       <span className="text-xs font-semibold text-primary uppercase tracking-widest">
@@ -423,8 +423,8 @@ const Projects = () => {
         }
 
         @keyframes pulse-glow {
-          0%, 100% { box-shadow: 0 0 20px rgba(127, 32, 196, 0.3); }
-          50% { box-shadow: 0 0 40px rgba(127, 32, 196, 0.6); }
+          0%, 100% { box-shadow: 0 0 20px rgba(0, 180, 216, 0.3); }
+          50% { box-shadow: 0 0 40px rgba(0, 180, 216, 0.6); }
         }
 
         @keyframes gradient-shift {
@@ -544,15 +544,15 @@ const Projects = () => {
         }
 
         .hover\\:bg-primary-hover:hover {
-          background-color: var(--primary-hover, #6a1b9a);
+          background-color: var(--primary-hover, #0077B6);
         }
 
         /* Enhanced focus states for accessibility */
         .focus-luxury:focus {
           outline: none;
-          box-shadow: 
-            0 0 0 3px rgba(127, 32, 196, 0.1),
-            0 0 0 6px rgba(127, 32, 196, 0.05);
+          box-shadow:
+            0 0 0 3px rgba(0, 180, 216, 0.1),
+            0 0 0 6px rgba(0, 180, 216, 0.05);
         }
 
         /* Performance optimizations */

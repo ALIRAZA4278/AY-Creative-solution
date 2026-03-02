@@ -316,7 +316,7 @@ const SocialMediaReview = () => {
                 className={`w-full font-semibold py-4 px-8 rounded-lg transition-all duration-300 ${
                   isSubmitting
                     ? 'bg-gray-400 cursor-not-allowed'
-                    : 'bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 shadow-lg hover:shadow-xl'
+                    : 'bg-gradient-to-r from-sky-500 to-cyan-600 hover:from-sky-600 hover:to-cyan-700 transform hover:scale-105 shadow-lg hover:shadow-xl'
                 } text-white`}
               >
                 {isSubmitting ? (

@@ -6,7 +6,7 @@ import Testimonials from './Components/Testimonials'
 import About from './Components/About'
 import LogoCarousel from './Components/LogoCarousel'
 import Contact from './Components/Contact'
-import Projects from './Components/Projects'
+
 import Socialmedia from './Components/Socialmedia'
 
 const page = () => {
@@ -17,7 +17,6 @@ const page = () => {
       <About />
       <Socialmedia />
       <ServicesHome />
-      <Projects />
       <Testimonials />
       <LogoCarousel />
       <Contact />

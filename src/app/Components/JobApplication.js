@@ -204,7 +204,7 @@ const JobApplication = ({ job }) => {
                     value={formData.fullName}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none text-black placeholder-gray-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none text-black placeholder-gray-500"
                     placeholder="Enter your full name"
                   />
                 </div>
@@ -222,7 +222,7 @@ const JobApplication = ({ job }) => {
                     value={formData.email}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none text-black placeholder-gray-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none text-black placeholder-gray-500"
                     placeholder="your@email.com"
                   />
                 </div>
@@ -235,7 +235,7 @@ const JobApplication = ({ job }) => {
                       name="countryCode"
                       value={formData.countryCode}
                       onChange={handleInputChange}
-                      className="w-20 px-3 py-3 border border-gray-300 rounded-l-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none bg-gray-50 text-black"
+                      className="w-20 px-3 py-3 border border-gray-300 rounded-l-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none bg-gray-50 text-black"
                     >
                       <option value="+92">PK</option>
                       <option value="+1">US</option>
@@ -250,7 +250,7 @@ const JobApplication = ({ job }) => {
                       value={formData.phone}
                       onChange={handleInputChange}
                       required
-                      className="flex-1 px-4 py-3 border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none text-black placeholder-gray-500"
+                      className="flex-1 px-4 py-3 border border-l-0 border-gray-300 rounded-r-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none text-black placeholder-gray-500"
                       placeholder="Phone number"
                     />
                   </div>
@@ -269,7 +269,7 @@ const JobApplication = ({ job }) => {
                     name="currentPosition"
                     value={formData.currentPosition}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none text-black placeholder-gray-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none text-black placeholder-gray-500"
                     placeholder="Your current job title"
                   />
                 </div>
@@ -283,7 +283,7 @@ const JobApplication = ({ job }) => {
                     value={formData.experience}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none text-black"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none text-black"
                   >
                     <option value="">Select experience</option>
                     <option value="0-1 years">0-1 years</option>
@@ -307,7 +307,7 @@ const JobApplication = ({ job }) => {
                     name="expectedSalary"
                     value={formData.expectedSalary}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none text-black placeholder-gray-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none text-black placeholder-gray-500"
                     placeholder="e.g., PKR 80,000 or Negotiable"
                   />
                 </div>
@@ -321,7 +321,7 @@ const JobApplication = ({ job }) => {
                     name="availableFrom"
                     value={formData.availableFrom}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none text-black"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none text-black"
                   />
                 </div>
               </div>
@@ -338,7 +338,7 @@ const JobApplication = ({ job }) => {
                     name="portfolio"
                     value={formData.portfolio}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none text-black placeholder-gray-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none text-black placeholder-gray-500"
                     placeholder="https://yourportfolio.com"
                   />
                 </div>
@@ -352,7 +352,7 @@ const JobApplication = ({ job }) => {
                     name="linkedin"
                     value={formData.linkedin}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent outline-none text-black placeholder-gray-500"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none text-black placeholder-gray-500"
                     placeholder="https://linkedin.com/in/yourprofile"
                   />
                 </div>
@@ -399,7 +399,7 @@ const JobApplication = ({ job }) => {
                   className={`w-full font-semibold py-4 px-8 rounded-lg transition-all duration-300 ${
                     isSubmitting
                       ? 'bg-gray-400 cursor-not-allowed'
-                      : 'bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transform hover:scale-105 shadow-lg hover:shadow-xl'
+                      : 'bg-gradient-to-r from-sky-500 to-cyan-600 hover:from-sky-600 hover:to-cyan-700 transform hover:scale-105 shadow-lg hover:shadow-xl'
                   } text-white`}
                 >
                   {isSubmitting ? (

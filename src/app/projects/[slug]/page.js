@@ -1216,7 +1216,7 @@ const ProjectDetailPage = ({ params }) => {
         }
         
         ::-webkit-scrollbar-thumb:hover {
-          background: linear-gradient(45deg, #6a1b9a, #7c3aed);
+          background: linear-gradient(45deg, #0077B6, #00B4D8);
         }
         
         /* Glass morphism effect */
