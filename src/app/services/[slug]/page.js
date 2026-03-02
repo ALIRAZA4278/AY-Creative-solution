@@ -1758,7 +1758,7 @@ const ServiceDetailPage = () => {
                   <motion.div 
                     className="absolute inset-0 rounded-3xl border-2 border-transparent bg-gradient-to-r from-primary/20 via-sky-500/20 to-sky-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                     style={{ 
-                      background: 'linear-gradient(45deg, transparent, transparent), linear-gradient(45deg, #6366f1, #8b5cf6, #06b6d4)',
+                      background: 'linear-gradient(45deg, transparent, transparent), linear-gradient(45deg, #0077B6, #00B4D8, #06b6d4)',
                       backgroundClip: 'padding-box, border-box',
                       backgroundOrigin: 'padding-box, border-box'
                     }}
@@ -2639,7 +2639,7 @@ const ServiceDetailPage = () => {
         }
         
         .service-card:hover h4 {
-          color: #7c3aed;
+          color: #00B4D8;
         }
         
         /* Consistent spacing */
@@ -2665,7 +2665,7 @@ const ServiceDetailPage = () => {
         
         /* Focus states for accessibility */
         .service-card:focus-visible {
-          outline: 2px solid #7c3aed;
+          outline: 2px solid #00B4D8;
           outline-offset: 2px;
         }
         

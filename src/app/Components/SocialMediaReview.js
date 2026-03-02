@@ -7,7 +7,7 @@ const SocialMediaReview = () => {
     fullName: '',
     email: '',
     whatsapp: '',
-    countryCode: '+92',
+    countryCode: '+1',
     businessName: '',
     socialPlatforms: {
       facebook: '',
@@ -65,7 +65,7 @@ const SocialMediaReview = () => {
           fullName: '',
           email: '',
           whatsapp: '',
-          countryCode: '+92',
+          countryCode: '+1',
           businessName: '',
           socialPlatforms: {
             facebook: '',
@@ -176,10 +176,10 @@ const SocialMediaReview = () => {
                       onChange={handleInputChange}
                       className="w-20 px-3 py-3 border border-gray-300 rounded-l-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-gray-900 bg-gray-50"
                     >
-                      <option value="+92">PK</option>
                       <option value="+1">US</option>
                       <option value="+44">UK</option>
                       <option value="+91">IN</option>
+                      <option value="+92">PK</option>
                       <option value="+86">CN</option>
                     </select>
                     <input

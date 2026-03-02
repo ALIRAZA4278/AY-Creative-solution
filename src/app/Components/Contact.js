@@ -7,7 +7,7 @@ const Contact = () => {
     fullName: '',
     email: '',
     phone: '',
-    countryCode: '+92',
+    countryCode: '+1',
     message: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -43,7 +43,7 @@ const Contact = () => {
           fullName: '',
           email: '',
           phone: '',
-          countryCode: '+92',
+          countryCode: '+1',
           message: ''
         });
       } else {
@@ -147,10 +147,10 @@ const Contact = () => {
                     onChange={handleInputChange}
                     className="w-20 sm:w-24 px-2 sm:px-3 py-3 border border-gray-300 rounded-l-lg focus:ring-2 focus:ring-primary focus:border-transparent outline-none text-gray-900 bg-gray-50 text-sm flex-shrink-0"
                   >
-                    <option value="+92">PK</option>
                     <option value="+1">US</option>
                     <option value="+44">UK</option>
                     <option value="+91">IN</option>
+                    <option value="+92">PK</option>
                     <option value="+86">CN</option>
                   </select>
                   <input
@@ -263,7 +263,7 @@ const Contact = () => {
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <p className="text-white font-medium">Suite#404, Amir Trade Center, Shahrah-e-Quaideen, <br />PECHS Bl-2, Karachi, Sindh, Pakistan. 75100</p>
+                    <p className="text-white font-medium">Los Angeles, California, USA</p>
                   </div>
                 </div>
               
@@ -271,11 +271,6 @@ const Contact = () => {
 
               {/* Contact Info */}
               <div className="space-y-3">
-                <div className="flex items-center gap-3">
-                  <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
-                  <p className="text-white">+92 310-4999 701 </p>
-                </div>
-               
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
                   <p className="text-white">info@aycreativesolution.com</p>

@@ -10,7 +10,7 @@ const JobApplication = ({ job }) => {
     fullName: '',
     email: '',
     phone: '',
-    countryCode: '+92',
+    countryCode: '+1',
     currentPosition: '',
     experience: '',
     expectedSalary: '',
@@ -69,7 +69,7 @@ const JobApplication = ({ job }) => {
           fullName: '',
           email: '',
           phone: '',
-          countryCode: '+92',
+          countryCode: '+1',
           currentPosition: '',
           experience: '',
           expectedSalary: '',
@@ -237,10 +237,10 @@ const JobApplication = ({ job }) => {
                       onChange={handleInputChange}
                       className="w-20 px-3 py-3 border border-gray-300 rounded-l-lg focus:ring-2 focus:ring-sky-500 focus:border-transparent outline-none bg-gray-50 text-black"
                     >
-                      <option value="+92">PK</option>
                       <option value="+1">US</option>
                       <option value="+44">UK</option>
                       <option value="+91">IN</option>
+                      <option value="+92">PK</option>
                       <option value="+86">CN</option>
                     </select>
                     <input
@@ -546,10 +546,6 @@ const JobApplication = ({ job }) => {
                 <div className="flex items-center text-gray-600">
                   <span className="mr-2">📧</span>
                   <span>info@aycreativesolution.com</span>
-                </div>
-                <div className="flex items-center text-gray-600">
-                  <span className="mr-2">📱</span>
-                  <span>+92 310-4999 701</span>
                 </div>
               </div>
             </div>

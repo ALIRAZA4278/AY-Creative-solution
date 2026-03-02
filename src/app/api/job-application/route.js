@@ -101,7 +101,7 @@ export async function POST(request) {
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; background-color: #ffffff;">
           <!-- Header -->
-          <div style="background: linear-gradient(135deg, #1e40af 0%, #7c3aed 100%); padding: 30px; text-align: center; border-radius: 12px 12px 0 0;">
+          <div style="background: linear-gradient(135deg, #0077B6 0%, #00B4D8 100%); padding: 30px; text-align: center; border-radius: 12px 12px 0 0;">
             <h1 style="color: white; margin: 0; font-size: 28px; font-weight: bold;">
               💼 New Job Application
             </h1>
@@ -316,10 +316,6 @@ export async function POST(request) {
                 <div style="color: #374151; font-weight: bold;">📧 Email</div>
                 <div style="color: #6b7280;">
 info@aycreativesolution.com</div>
-              </div>
-              <div style="text-align: center; margin: 5px;">
-                <div style="color: #374151; font-weight: bold;">📱 Phone</div>
-                <div style="color: #6b7280;">+92 310-4999 701</div>
               </div>
             </div>
           </div>
