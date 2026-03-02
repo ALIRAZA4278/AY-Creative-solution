@@ -83,10 +83,10 @@ const Navbar = () => {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
                 <Image
-                  src="/ay creative logo.png"
+                  src="/ay creative logo black.png"
                   alt="AY Creative Solution Logo"
-                  width={220}
-                  height={100}
+                  width={240}
+                  height={110}
                   className="h-20 sm:h-24 lg:h-28 w-auto object-contain"
                   priority
                 />
