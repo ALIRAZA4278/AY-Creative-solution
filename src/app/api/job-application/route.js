@@ -315,7 +315,7 @@ export async function POST(request) {
               <div style="text-align: center; margin: 5px;">
                 <div style="color: #374151; font-weight: bold;">📧 Email</div>
                 <div style="color: #6b7280;">
-info@aycreativesolution.com</div>
+info@aycreativesolutions.com</div>
               </div>
             </div>
           </div>

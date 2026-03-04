@@ -263,17 +263,20 @@ const Contact = () => {
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <p className="text-white font-medium">Los Angeles, California, USA</p>
+                    <p className="text-white font-medium">10300 National Blvd, Los Angeles, California 90034</p>
                   </div>
                 </div>
-              
               </div>
 
               {/* Contact Info */}
               <div className="space-y-3">
                 <div className="flex items-center gap-3">
                   <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
-                  <p className="text-white">info@aycreativesolution.com</p>
+                  <p className="text-white">+1 (646) 993-9010</p>
+                </div>
+                <div className="flex items-center gap-3">
+                  <div className="w-2 h-2 bg-primary rounded-full flex-shrink-0"></div>
+                  <p className="text-white">info@aycreativesolutions.com</p>
                 </div>
               </div>
 

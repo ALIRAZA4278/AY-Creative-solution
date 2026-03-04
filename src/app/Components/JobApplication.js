@@ -545,7 +545,7 @@ const JobApplication = ({ job }) => {
               <div className="space-y-2 text-sm">
                 <div className="flex items-center text-gray-600">
                   <span className="mr-2">📧</span>
-                  <span>info@aycreativesolution.com</span>
+                  <span>info@aycreativesolutions.com</span>
                 </div>
               </div>
             </div>
